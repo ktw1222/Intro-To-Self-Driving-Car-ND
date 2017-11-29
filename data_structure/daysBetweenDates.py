@@ -71,6 +71,7 @@ def mytest():
     assert daysBetweenDates(2013, 1, 24, 2013, 6, 29) == 156
     print "Test finished"
 
+def test():
     test_cases = [((2012,1,1,2012,2,28), 58),
                   ((2012,1,1,2012,3,1), 60),
                   ((2011,6,30,2012,6,30), 366),
